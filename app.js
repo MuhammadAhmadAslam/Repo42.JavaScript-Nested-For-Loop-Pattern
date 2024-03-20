@@ -1,13 +1,13 @@
 document.write("<center>")
-// var userNumber = prompt("Enter a number to draw a pattern");
-// document.write("<div class='main'>")
-// for (var i = 1; i <= userNumber; i++) {
-//     for (var j = 1; j <= i; j++) {
-//         document.write("&nbsp;");
-//         document.write("*");
-//     }
-//     document.write("<br>")
-// }
+var userNumber = prompt("Enter a number to draw a pattern");
+document.write("<div class='main'>")
+for (var i = 1; i <= userNumber; i++) {
+    for (var j = 1; j <= i; j++) {
+        document.write("&nbsp;");
+        document.write("*");
+    }
+    document.write("<br>")
+}
 document.write("<br>")
 document.write("<br>")
 document.write("<br>")
@@ -93,8 +93,14 @@ for(var i = 1; i<= 7; i++){
 // }
 
 
-
-
+var count = 5;
+for (var i = 0; i <= count; i++) {
+   for (var j = 0; j <= m; j++) {
+    document.write(i);
+    
+   }
+    document.write("<br>");
+}
 
 
 
